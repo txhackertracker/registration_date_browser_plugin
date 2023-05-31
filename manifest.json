@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Date Search Extension",
+  "version": "1.0",
+  "description": "Searches the whois.com webpage for the registration date in the format of 'YYYY-MM-DD' and copies the enrichment to the clipboard.  For best results, use it in conjunction with the whois enrichment.",
+  "permissions": ["tabs", "activeTab"],
+  "browser_action": {
+    "default_title": "Search for Date"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2
+}
+
+
